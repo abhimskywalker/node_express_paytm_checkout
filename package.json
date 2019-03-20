@@ -1,0 +1,8 @@
+{
+  "name": "node_express_paytm_checkout",
+  "version": "1.0.0",
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "latest"
+  }
+}
