@@ -1,0 +1,15 @@
+doctype html
+html
+    title Paytm Checkout Callback
+    body
+        h3 These are all returned response params which should be preferably stored in a database for record:
+        ul
+            each val, key in callbackResponse
+                li=key + ":" + val
+        hr
+        h3 checksum_verification_status: `checksumVerification`
+        hr
+        h3 Response params for transaction verification response:
+        ul
+            each val, key in verificationResponse
+                li=key + ":" + val

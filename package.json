@@ -2,7 +2,9 @@
   "name": "node_express_paytm_checkout",
   "version": "1.0.0",
   "dependencies": {
-    "body-parser": "latest",
-    "express": "latest"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "pug": "^2.0.3",
+    "request": "^2.88.0"
   }
 }

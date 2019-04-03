@@ -1,0 +1,9 @@
+doctype html
+html
+    title= 'Paytm Checkout'
+    body
+        h3= 'These are all the data params to submit (POST) to initiate transaction'
+        form(method="post", action=url)
+            each val, key in data
+                input(type="hidden", name=key, value=val)
+            input(type="submit")

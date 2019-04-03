@@ -1,6 +1,6 @@
 "use strict";
 
-var crypt = require('./crypt');
+var crypt = require('./paytm_crypt');
 var util = require('util');
 var crypto = require('crypto');
 
