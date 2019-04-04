@@ -3,7 +3,7 @@ Integrate Paytm Checkout to your Node.js Express based website to provide a secu
 
 # Setup steps
 You’ll need to have the following prerequisites before we go any further:
-- A [Paytm](https://business.paytm.com/) account
+- A [Paytm Merchant](https://business.paytm.com/) account
 - A [Node](https://nodejs.org) environment
 
 ### 1. Basic app setup
